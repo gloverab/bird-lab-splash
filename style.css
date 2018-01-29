@@ -1,8 +1,6 @@
-
-
 @font-face {
   font-family: 'Helvetica Neue';
-  src: url('HelveticaNeueLTStd-Th.otf');
+  src: url('fonts/HelveticaNeueLTStd-Th.otf');
 }
 
 body {
@@ -80,6 +78,7 @@ label[for=mc-embedded-subscribe] {
   cursor: pointer;
   display: inline-block;
   padding: 11.2px 30px;
+  height: 36px;
   color: white;
   background-color: black;
   border-radius: 55px 255px 25px 255px/255px 25px 255px 55px;
@@ -96,6 +95,7 @@ label[for=mc-embedded-subscribe] {
   body {
     margin: 0;
     width: 100vw;
+    overflow-x: hidden;
   }
   .container {
     width: 100%;
@@ -103,5 +103,9 @@ label[for=mc-embedded-subscribe] {
 
   h1 {
     font-size: 3em;
+  }
+
+  #mc-embedded-subscribe {
+    border-radius: 0;
   }
 }
