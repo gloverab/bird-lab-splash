@@ -207,7 +207,17 @@ input:-webkit-autofill {
 
   #mc-embedded-subscribe {
     width: 100%;
+    cursor: pointer;
+    display: inline-block;
     margin-left: 0;
+    padding: 11.2px 30px;
+    height: 10%;
+    max-height: 50px;
+    color: white;
+    background-color: black;
     border-radius: 0;
+    vertical-align: top;
+    border: none;
+    transition: 0.2s ease all;
   }
 }
