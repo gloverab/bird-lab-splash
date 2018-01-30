@@ -25,6 +25,11 @@ h2 {
   font-size: 15px;
 }
 
+h3 {
+  font-weight: lighter;
+  font-family: 'Loved by the King'
+}
+
 input {
   outline: none;
   box-shadow: none;
@@ -125,7 +130,20 @@ input:-webkit-autofill {
 }
 
 .social-container {
+  position: relative;
   display: inline-block;
+  transition: 0.3s ease all;
+}
+
+.soon {
+  font-size: 24px;
+  opacity: 0;
+  visibility: hidden;
+  cursor: default;
+  width: 100%;
+  position: absolute;
+  margin: 0 auto;
+  padding: 0;
   transition: 0.3s ease all;
 }
 
@@ -134,18 +152,22 @@ input:-webkit-autofill {
   width: 25px;
   height: 25px;
   padding: 5px;
-  transition: 0.3s all ease;
+  transition: 0.3s ease all;
+}
+
+.social-container:hover > .soon {
+  visibility:visible;
+  opacity: 1;
 }
 
 .social-container:hover > .icon {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
-.social-container:hover > .icon:hover {
+/* .social-container:hover > .icon:hover {
   opacity: 1.0;
   border: 3px solid black;
-
-}
+} */
 
 .copyright {
   font-size: 12px;
