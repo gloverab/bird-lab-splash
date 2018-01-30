@@ -33,9 +33,9 @@ input {
 .container {
   display: block;
   margin: 0 auto;
-  width: 550px;
+  height: 100%;
+  padding: 2%;
   text-align: center;
-  margin-top: 2%;
 }
 
 .letter-spacing {
@@ -51,7 +51,7 @@ input {
 }
 
 .mascot {
-  height: 400px;
+  height: 50%;
 }
 
 .bottom-10 {
@@ -84,7 +84,8 @@ input {
 
 #mce-EMAIL {
   width: 242px;
-  height: 50px;
+  height: 10%;
+  max-height: 50px;
   padding: 10px;
   border: 3px solid black;
   text-transform: uppercase;
@@ -104,7 +105,8 @@ input {
   display: inline-block;
   margin-left: 15px;
   padding: 11.2px 30px;
-  height: 50px;
+  height: 10%;
+  max-height: 50px;
   color: white;
   background-color: black;
   border-radius: 55px 255px 25px 255px/255px 25px 255px 55px;
@@ -126,14 +128,15 @@ input {
   opacity: 0.3;
 }
 
+.copyright {
+  font-size: 12px;
+}
+
 @media only screen and (max-width: 550px) {
   body {
     margin: 0;
     width: 100%;
     overflow-x: hidden;
-  }
-  .container {
-    width: 100%;
   }
 
   h1 {
