@@ -109,6 +109,7 @@ input {
   max-height: 50px;
   color: white;
   background-color: black;
+  border-radius: none;
   border-radius: 55px 255px 25px 255px/255px 25px 255px 55px;
   vertical-align: top;
   border: none;
