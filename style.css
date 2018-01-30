@@ -129,8 +129,22 @@ input:-webkit-autofill {
   transition: 0.3s ease all;
 }
 
-.social-container:hover {
+.icon {
+  border: 3px solid transparent;
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  transition: 0.3s all ease;
+}
+
+.social-container:hover > .icon {
   opacity: 0.3;
+}
+
+.social-container:hover > .icon:hover {
+  opacity: 1.0;
+  border: 3px solid black;
+
 }
 
 .copyright {
