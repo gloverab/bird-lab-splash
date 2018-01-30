@@ -59,13 +59,13 @@ input {
 
 #mce-EMAIL {
   width: 242px;
-  height: 36px;
+  height: 50px;
   padding: 10px;
   border: 3px solid black;
   text-transform: uppercase;
 }
 
-label[for=mc-embedded-subscribe] {
+.mc-embedded-subscribe-label {
   font-size: 12px;
   top: -5px;
   left: 19px;
@@ -77,18 +77,19 @@ label[for=mc-embedded-subscribe] {
 #mc-embedded-subscribe {
   cursor: pointer;
   display: inline-block;
+  margin-left: 15px;
   padding: 11.2px 30px;
-  height: 36px;
+  height: 50px;
   color: white;
   background-color: black;
   border-radius: 55px 255px 25px 255px/255px 25px 255px 55px;
   vertical-align: top;
   border: none;
-  transition: 0.5s ease all;
+  transition: 0.3s ease all;
 }
 
 #mc-embedded-subscribe:hover {
-  border-radius: 0;
+  border-radius: 155px 155px 125px 155px/0 155px 155px 155px;
 }
 
 @media only screen and (max-width: 550px) {
