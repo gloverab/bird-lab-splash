@@ -5,6 +5,7 @@
 
 body {
   font-family: 'Helvetica Neue', cursive;
+  font-weight: 600;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
@@ -42,7 +43,6 @@ input:-webkit-autofill {
 .container {
   display: block;
   margin: 0 auto;
-  height: 100%;
   padding: 2%;
   text-align: center;
 }
@@ -177,6 +177,7 @@ input:-webkit-autofill {
   body {
     margin: 0;
     width: 100%;
+    height: auto;
     overflow-x: hidden;
   }
 
