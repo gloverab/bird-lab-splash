@@ -121,7 +121,7 @@ input:-webkit-autofill {
 }
 
 #mc-embedded-subscribe:hover {
-  border-radius: 155px 155px 125px 155px/0 155px 155px 155px;
+  border-radius: 155px 155px 155px 155px/155px 155px 155px 155px;
 }
 
 .social-container {
