@@ -22,8 +22,6 @@ h1 {
 
 h2 {
   font-family: 'Helvetica Neue', georgia;
-  letter-spacing: .4em;
-
   font-size: 15px;
 }
 
@@ -37,12 +35,24 @@ input {
   margin: 0 auto;
   width: 550px;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3%;
+}
+
+.letter-spacing {
+  letter-spacing: .4em;
+}
+
+.letter-spacing-light {
+  letter-spacing: .2em;
+}
+
+.logo-text {
+  margin-bottom: 30px;
 }
 
 .mascot {
   height: 400px;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .clear {
@@ -52,7 +62,7 @@ input {
 }
 
 #mc_embed_signup_scroll {
-  width: 400px;
+  width: 450px;
   margin: 0 auto;
   position: relative;
 }
@@ -68,7 +78,7 @@ input {
 .mc-embedded-subscribe-label {
   font-size: 12px;
   top: -5px;
-  left: 19px;
+  left: 27px;
   padding: 0 10px;
   background-color: white;
   position: absolute;
