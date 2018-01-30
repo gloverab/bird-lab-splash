@@ -35,7 +35,7 @@ input {
   margin: 0 auto;
   width: 550px;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .letter-spacing {
@@ -46,13 +46,28 @@ input {
   letter-spacing: .2em;
 }
 
-.logo-text {
-  margin-bottom: 30px;
+.letter-spacing-heavy {
+  letter-spacing: .5em;
 }
 
 .mascot {
   height: 400px;
+}
+
+.bottom-10 {
+  margin-bottom: 10px;
+}
+
+.bottom-30 {
   margin-bottom: 30px;
+}
+
+.bottom-50 {
+  margin-bottom: 50px;
+}
+
+.right-30 {
+  margin-right: 30px;
 }
 
 .clear {
@@ -105,7 +120,7 @@ input {
 @media only screen and (max-width: 550px) {
   body {
     margin: 0;
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
   }
   .container {
@@ -116,7 +131,30 @@ input {
     font-size: 3em;
   }
 
+  .mascot {
+    height: 350px;
+  }
+
+  .mc-embedded-subscribe-label {
+    margin-left: 3.8%;
+  }
+
+  #mc_embed_signup_scroll {
+    width: 100%;
+  }
+
+  #mce-EMAIL {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .clear {
+    width: 80%;
+  }
+
   #mc-embedded-subscribe {
+    width: 100%;
+    margin-left: 0;
     border-radius: 0;
   }
 }
