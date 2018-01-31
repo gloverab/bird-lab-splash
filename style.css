@@ -220,5 +220,6 @@ input:-webkit-autofill {
     vertical-align: top;
     border: none;
     transition: 0.2s ease all;
+    -webkit-appearance: none;
   }
 }
